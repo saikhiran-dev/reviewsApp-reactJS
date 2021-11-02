@@ -1,0 +1,74 @@
+.reviews-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Roboto';
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 500;
+  padding-top: 26px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 39px;
+    padding-top: 45px;
+  }
+}
+.app-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 21px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 1014px;
+  }
+}
+.person-image {
+  width: 70px;
+  height: 70px;
+}
+@media screen and (min-width: 768px) {
+  .person-image {
+    width: 110px;
+    height: 110px;
+  }
+}
+.person-name {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.company-name {
+  font-size: 13px;
+  color: #171f46;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.description {
+  color: #171f46;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    max-width: 702px;
+  }
+}
+.arrow {
+  width: 18px;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
